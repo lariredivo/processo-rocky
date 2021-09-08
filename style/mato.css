@@ -1,0 +1,239 @@
+:root {
+  /*   color variables */
+  --details: #588106;
+  --contraste: #551a8b;
+  --footer-bg: #faebd7;
+  --footer-text: ##878787;
+  --border-gray: #e2e6e7;
+  --cl-background: #fffaf4;
+  --cl-a-secundaria: #07a2c9;
+  --newsletter-bg: #e6cf3c;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  line-height: 1.5;
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--cl-background);
+}
+
+/*Header*/
+header .container-logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--footer-bg);
+}
+
+header .img-logo {
+  margin-left: 15px;
+}
+
+header nav a {
+  text-decoration: none;
+  color: var(--details);
+  margin-right: 10px;
+}
+
+header nav a:hover {
+  color: var(--contraste);
+}
+/* Text */
+.text {
+  margin: 30px;
+  text-align: justify;
+}
+
+h1 {
+  margin: 50px;
+  text-align: center;
+}
+
+p {
+  justify-content: left;
+  font-size: 18px;
+  margin: 0 30px;
+}
+
+.link-receita {
+  color: var(--cl-a-secundaria);
+  text-decoration: none;
+}
+
+h3 {
+  margin: 50px;
+  text-align: center;
+}
+/* Cards plantas*/
+.cards {
+  margin: 2rem;
+  display: grid;
+  grid-template-columns: 500px 500px;
+  grid-gap: 2rem;
+  justify-content: center;
+}
+
+.card {
+  overflow: hidden;
+  box-shadow: 0px 1px 5px var(--newsletter-bg);
+  border-radius: 2%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: var(--details);
+}
+
+.card:hover {
+  transform: scale(1.1);
+  color: var(--contraste);
+}
+
+.card-image {
+  height: 20rem;
+  width: 100%;
+  object-fit: scale-down;
+}
+
+.card-title {
+  padding: 0 1rem 0 1rem;
+  text-align: center;
+}
+
+.card-subtitle {
+  font-size: 16px;
+  padding: 0 1rem 1rem 1rem;
+}
+
+.card-subtitle .nome-cientifico {
+  font-style: italic;
+}
+.card-description {
+  padding: 0 1rem 1rem 1rem;
+  text-align: center;
+}
+
+/*Footer */
+.footer {
+  background-color: var(--footer-bg);
+  color: var(--footer-text);
+}
+
+.footer .container {
+  max-width: 1170px;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.footer img {
+  width: 300px;
+}
+
+.footer-col ul {
+  list-style: none;
+  padding: 70px 0;
+}
+
+.footer-col ul a {
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.footer-col {
+  width: 25%;
+  padding: 0 15px;
+  align-items: center;
+}
+
+.footer-col .links {
+  font-size: 18px;
+  text-transform: capitalize;
+  margin-bottom: 30px;
+  font-weight: 500;
+  position: relative;
+  text-align: center;
+}
+
+.footer-col .links::before {
+  content: '';
+  position: absolute;
+  left: 40%;
+  bottom: -10px;
+  background-color: var(--details);
+  height: 2px;
+  box-sizing: border-box;
+  width: 50px;
+}
+
+.footer-col .redes {
+  font-size: 18px;
+  margin-bottom: 30px;
+  font-weight: 500;
+  position: relative;
+  align-content: start;
+}
+
+.footer-col .redes::before {
+  content: '';
+  position: absolute;
+  left: 0px;
+  bottom: -10px;
+  background-color: var(--details);
+  height: 2px;
+  box-sizing: border-box;
+  width: 50px;
+}
+
+.footer-col ul li {
+  margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 300;
+  color: #7c6262;
+  display: block;
+  transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover {
+  color: var(--details);
+  padding-left: 10px;
+}
+
+.footer-col p {
+  margin-top: 20px;
+}
+
+.footer-col .social-links a {
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  background-color: var(--details);
+  margin: 0 10px 10px 0;
+  text-align: center;
+  line-height: 50px;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+  color: var(--contraste);
+  background-color: var(--details);
+}
+
+.footer-col .social-links a:hover {
+  color: var(--details);
+  background-color: var(--contraste);
+}
