@@ -1,12 +1,12 @@
 # Processo Seletivo ROCKY
 
-Projeto realizado para o processo seletivo ROCKY em que foi necessário criar um site com as noções básicas de HTML, CSS e SE0. 
+Projeto realizado para o processo seletivo ROCKY em que foi necessário criar um site com as noções básicas de HTML, CSS e SEO. 
 
 ## Estrutura do site para o processo:
 - O site deve conter, pelo menos, três páginas;
 - O site deve conter um menu de navegação;
 - O conteúdo do site deve ser escrito pela candidata;
-- O site deve conter as principais Tags On-Page de SE0;
+- O site deve conter as principais Tags On-Page de SEO;
 - O site deve conter imagens de acordo com o tema;
 
 ## Minha ideia:
