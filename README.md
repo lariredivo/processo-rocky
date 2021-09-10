@@ -15,4 +15,6 @@ Estou em transição de carreira da área biológica e tenho muito interesse, pr
 ## O que foi utilizado:
 O site foi estruturado em HTML, a parte visual foi realizada em CSS e usei um pouco de JavaScript para a parte do formulário da página "sobre o projeto" e no menu da página "receitas". A logo do projeto ficcional foi desenvolvida no site Canva, as imagens foram selecionadas da internet e o conteúdo foi criado por mim.
 
+## Link para acesso ao projeto:
+O projeto pode ser visualizado no seguinte [link](https://replit.com/@lariredivo/processo-rocky#.replit).  
 
